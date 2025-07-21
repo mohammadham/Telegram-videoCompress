@@ -1,0 +1,7 @@
+name = "video-compressor-worker"
+main = "src/index.ts"
+compatibility_date = "2024-03-22"
+
+[[r2_buckets]]
+binding = "VIDEO_BUCKET"
+bucket_name = "video-compressor-bucket"
